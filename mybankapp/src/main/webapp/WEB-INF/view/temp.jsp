@@ -6,29 +6,19 @@
   <title>My bank</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">  
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- 외부 스타일 시트 가져오기 -->
+  <link rel="stylesheet" href="/css/style.css">
   <style>
   .fakeimg {
     height: 200px;
     background: #aaa;
   }
-  .m--profile {
-  	background-image: url(https://picsum.photos/id/1/350);
-  	background-size: cover;
-  	background-position: center;
-  	width: 100%;
-  	height: 200px;
-  }
-  .banner--img{
-   background-image: url(https://picsum.photos/600);
-  	background-size: cover;
-  	background-position: center;
-  	width: 100%;
-  	height: 100%;  
-  }
+	
+
   </style>
 </head>
 <body>
