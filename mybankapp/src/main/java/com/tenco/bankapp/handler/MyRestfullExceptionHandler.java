@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.mysql.cj.protocol.x.ContinuousOutputStream;
 import com.tenco.bankapp.handler.exception.CustomRestfullException;
+import com.tenco.bankapp.handler.exception.UnAuthorizedException;
 
 /**
  * 예외 발생시 테이터를 내려 줄 수 있다.
@@ -28,6 +29,16 @@ public class MyRestfullExceptionHandler {
 		sb.append("<script>");
 		sb.append("alert('"+ e.getMessage() +"');");
 		sb.append("history.back();");
+		sb.append("</script>");
+		return sb.toString();
+	}
+	
+	@ExceptionHandler(UnAuthorizedException.class)
+	public String unAuthorizedException(UnAuthorizedException e) {
+		StringBuffer sb = new StringBuffer();
+		sb.append("<script>");
+		sb.append("alert('"+ e.getMessage() +"');");
+		sb.append("location.href='/user/sign-in';");
 		sb.append("</script>");
 		return sb.toString();
 	}

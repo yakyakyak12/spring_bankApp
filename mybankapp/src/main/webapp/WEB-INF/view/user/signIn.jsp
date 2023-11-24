@@ -1,24 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
 <%@ include file="/WEB-INF/view/layout/header.jsp"%>
 
 <div class="col-sm-8">
-	<h2>ทฮฑืภฮ</h2>
-	<h5>พ๎ผญฟภผผฟไ</h5>
+	<h2>๋ก๊ทธ์ธ</h2>
+	<h5>์–ด์์ค์ธ์”</h5>
 	<div>
-		<form action="/" method="post">
+		<form action="/user/sign-in" method="post">
 			<div class="form-group">
 				<label for="username">username:</label> <input type="text"
 					class="form-control" placeholder="Enter username" id="username"
-					name="username">
+					name="username" value="๊ธธ๋">
 			</div>
 			<div class="form-group">
 				<label for="pwd">Password:</label> <input type="password"
 					class="form-control" placeholder="Enter password" id="pwd"
-					name="password">
+					name="password" value="1234">
 			</div>
-			<button type="submit" class="btn btn-primary">ทฮฑืภฮ</button>
+			<button type="submit" class="btn btn-primary">๋ก๊ทธ์ธ</button>
 		</form>
 	</div>
 </div>

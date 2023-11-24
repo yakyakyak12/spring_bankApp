@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-   pageEncoding="EUC-KR"%>
-<!-- ¿©±â¼­ºÎÅÍ Ç²ÅÍ »ç¿ë ¿¹Á¤ -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+   pageEncoding="UTF-8"%>
+<!-- ì—¬ê¸°ì„œë¶€í„° í’‹í„° ì‚¬ìš© ì˜ˆì • -->
 <div class="jumbotron text-center" style="margin-bottom: 0">
    <p>Footer</p>
 </div>

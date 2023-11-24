@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- ©э╨н ╫╨е╦юо ╫цф╝ ╟║а╝©ю╠Б -->
+  <!-- Л≥╦К╤─ Л┼╓М┐─Л²╪ Л▀°М┼╦ Й╟─Л═╦Л≤╓Й╦╟ -->
   <link rel="stylesheet" href="/css/style.css">
   <style>
   .fakeimg {
@@ -25,7 +25,7 @@
 
 <div class="jumbotron text-center banner--img" style="margin-bottom:0">
   <h1>My bank</h1>
-  <p>дз╦╟юл ю╨гЮ ╟Э╦╝ ╫ц╫╨ешют╢о╢ы.</p> 
+  <p>Л╫■К╕╟Л²╢ Л²─М√┴ Й╢─К╕╛ Л▀°Л┼╓М┘°Л·┘К▀┬К▀╓.</p> 
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -54,30 +54,30 @@
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
       <div class="m--profile"></div>
-      <p>юз╤С╤С╢б дз╦╟юл©║ ю╨гЮ ╟Э╦╝ ╫ц╫╨еш</p>
+      <p>Л·░К²╪К²╪К┼■ Л╫■К╕╟Л²╢Л≈░ Л²─М√┴ Й╢─К╕╛ Л▀°Л┼╓М┘°</p>
       <h3>Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">╟Хаб</a>
+          <a class="nav-link active" href="#">ЙЁ└Л╒▄</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">╟Хаб╦Я╥о</a>
+          <a class="nav-link" href="#">ЙЁ└Л╒▄К╙╘К║²</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">цБ╠щ</a>
+          <a class="nav-link" href="#">Л╤°Й╦┬</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ют╠щ</a>
+          <a class="nav-link" href="#">Л·┘Й╦┬</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">юлц╪</a>
+          <a class="nav-link" href="#">Л²╢Л╡╢</a>
         </li>
       </ul>
       <hr class="d-sm-none">
     </div>
     
-    <!-- ©╘╠Б╪╜╨нем main ©╣©╙ю╦╥н ╩Г©К ©╧а╓ -->
+    <!-- Л≈╛Й╦╟Л└°К╤─М└╟ main Л≤│Л≈╜Л°╪К║° Л┌╛Л ╘ Л≤┬Л═∙ -->
     <div class="col-sm-8">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
@@ -94,7 +94,7 @@
   </div>
 </div>
 
-   <!-- ©╘╠Б╪╜╨нем г╡ем ╩Г©К ©╧а╓ -->
+   <!-- Л≈╛Й╦╟Л└°К╤─М└╟ М▓▀М└╟ Л┌╛Л ╘ Л≤┬Л═∙ -->
 <div class="jumbotron text-center" style="margin-bottom:0">
   <p>Footer</p>
 </div>

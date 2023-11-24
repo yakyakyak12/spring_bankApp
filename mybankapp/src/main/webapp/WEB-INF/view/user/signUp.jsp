@@ -1,11 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 
 <%@ include file="/WEB-INF/view/layout/header.jsp"%>
 
 <div class="col-sm-8">
-	<h2>х╦©Ь╟║ют</h2>
-	<h5>╬Н╪╜©ю╪╪©Д</h5>
+	<h2>М ▄Л⌡░Й╟─Л·┘</h2>
+	<h5>Л√╢Л└°Л≤╓Л└╦Л ■</h5>
 	<div>
 		<form action="/user/sign-up" method="post">
 			<div class="form-group">
@@ -23,7 +23,7 @@
 					class="form-control" placeholder="Enter fullname" id="fullname"
 					name="fullname">
 			</div>
-			<button type="submit" class="btn btn-primary">х╦©Ь ╟║ют</button>
+			<button type="submit" class="btn btn-primary">М ▄Л⌡░ Й╟─Л·┘</button>
 		</form>
 	</div>
 </div>

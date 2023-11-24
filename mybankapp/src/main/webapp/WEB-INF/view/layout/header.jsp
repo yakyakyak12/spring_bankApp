@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +35,7 @@
 
 <div class="jumbotron text-center banner--img" style="margin-bottom:0">
   <h1>My bank</h1>
-  <p>ÄÚ¸°ÀÌ ÀºÇà °ü¸® ½Ã½ºÅÛÀÔ´Ï´Ù.</p> 
+  <p>ì½”ë¦°ì´ ì€í–‰ ê´€ë¦¬ ì‹œìŠ¤í…œìž…ë‹ˆë‹¤.</p> 
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -46,13 +46,13 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="/main">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SignIn</a>
+        <a class="nav-link" href="/user/sign-in">SignIn</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SignUp</a>
+        <a class="nav-link" href="/user/sign-up">SignUp</a>
       </li>    
     </ul>
   </div>  
@@ -64,24 +64,24 @@
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
       <div class="m--profile"></div>
-      <p>ÀÚ¶ó¶ó´Â ÄÚ¸°ÀÌ¿¡ ÀºÇà °ü¸® ½Ã½ºÅÛ</p>
+      <p>ìžë¼ë¼ëŠ” ì½”ë¦°ì´ì— ì€í–‰ ê´€ë¦¬ ì‹œìŠ¤í…œ</p>
       <h3>Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">°èÁÂ</a>
+          <a class="nav-link active" href="/account/save">ê³„ì¢Œìƒì„±</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">°èÁÂ¸ñ·Ï</a>
+          <a class="nav-link" href="/account/list">ê³„ì¢Œëª©ë¡</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ãâ±Ý</a>
+          <a class="nav-link" href="/account/whthdraw">ì¶œê¸ˆ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ÀÔ±Ý</a>
+          <a class="nav-link" href="/account/deposit">ìž…ê¸ˆ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ÀÌÃ¼</a>
+          <a class="nav-link" href="/account/transfer">ì´ì²´</a>
         </li>
       </ul>
       <hr class="d-sm-none">
