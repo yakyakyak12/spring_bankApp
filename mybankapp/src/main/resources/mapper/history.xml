@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 반드시 세미콜론 생략 -->
+<mapper
+	namespace="com.tenco.bankapp.repository.interfaces.HistoryRepository">
+	<insert id="insert">
+		insert into histoy_tb(amount, wBalance, dBalance, wAccountId, dAccountId, created_at)
+		values(#{amount}, #{wBalance},
+		#{dBalance}, #{wAccountId}, #{dAccountId}, now())
+	</insert>
+
+	<select id="findByAccountNumber"
+		resultType="com.tenco.bankapp.repository.entity.History">
+		select * from histoy_tb h
+		join account_tb a
+		on h.w_account_id = a.id 
+		where a.number = #{wAccountNumber}
+	</select>
+
+</mapper>

@@ -88,7 +88,7 @@ public class UserController {
 		
 		System.out.println("principal : " + principal);
 		
-		return "/account/list";
+		return "redirect:/account/list";
 	}
 	
 	@GetMapping("/logout")
