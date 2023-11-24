@@ -46,7 +46,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/main">Home</a>
+        <a class="nav-link" href="/temp/main-page">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/user/sign-in">SignIn</a>

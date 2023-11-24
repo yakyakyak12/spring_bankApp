@@ -28,6 +28,7 @@ public class Account {
 	public void deposit(Long amount) {
 		this.balance += amount;
 	}
+
 	
 	// TODO - 추후 추가
 	// 패스워드 체크 기능
