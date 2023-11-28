@@ -17,7 +17,7 @@ public interface HistoryRepository {
 	// 거래내역 조회
 	public List<History> findAll();
 	public List<History> findByAccountNumber(String id);
-	public List<History> findByIdAndDynamicType(@Param("type") String type, @Param("id") Integer id);
+	public List<History> findByIdAndDynamicType(@Param("type") String type, @Param("accountId") Integer accountId);
 	
 
 	// 동적 쿼리 생성
